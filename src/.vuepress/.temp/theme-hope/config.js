@@ -1,14 +1,14 @@
 import { defineClientConfig } from "@vuepress/client";
-import { VPLink } from "/home/netto/projetos/odooJob/hope/node_modules/vuepress-shared/lib/client/index.js";
+import { VPLink } from "/home/netto/projetos/odooJob/hope/doc/node_modules/vuepress-shared/lib/client/index.js";
 
-import { HopeIcon, Layout, NotFound, useScrollPromise, injectDarkmode, setupDarkmode, setupSidebarItems } from "/home/netto/projetos/odooJob/hope/node_modules/vuepress-theme-hope/lib/bundle/export.js";
+import { HopeIcon, Layout, NotFound, useScrollPromise, injectDarkmode, setupDarkmode, setupSidebarItems } from "/home/netto/projetos/odooJob/hope/doc/node_modules/vuepress-theme-hope/lib/bundle/export.js";
 
-import { defineAutoCatalogIconComponent } from "/home/netto/projetos/odooJob/hope/node_modules/vuepress-plugin-auto-catalog/lib/client/index.js"
-import { GlobalEncrypt, LocalEncrypt } from "/home/netto/projetos/odooJob/hope/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/export.js";
-import "/home/netto/projetos/odooJob/hope/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/styles/all.scss"
-import Slide from "/home/netto/projetos/odooJob/hope/node_modules/vuepress-plugin-md-enhance/lib/client/SlidePage.js";
+import { defineAutoCatalogIconComponent } from "/home/netto/projetos/odooJob/hope/doc/node_modules/vuepress-plugin-auto-catalog/lib/client/index.js"
+import { GlobalEncrypt, LocalEncrypt } from "/home/netto/projetos/odooJob/hope/doc/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/export.js";
+import "/home/netto/projetos/odooJob/hope/doc/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/styles/all.scss"
+import Slide from "/home/netto/projetos/odooJob/hope/doc/node_modules/vuepress-plugin-md-enhance/lib/client/SlidePage.js";
 
-import "/home/netto/projetos/odooJob/hope/node_modules/vuepress-theme-hope/lib/bundle/styles/all.scss";
+import "/home/netto/projetos/odooJob/hope/doc/node_modules/vuepress-theme-hope/lib/bundle/styles/all.scss";
 
 defineAutoCatalogIconComponent(HopeIcon);
 

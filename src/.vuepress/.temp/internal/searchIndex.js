@@ -618,6 +618,28 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "API",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Method List",
+        "slug": "method-list",
+        "link": "#method-list",
+        "children": []
+      }
+    ],
+    "path": "/reference/apiList.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Feature List",
+    "headers": [],
+    "path": "/reference/featureList.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Custom types",
     "headers": [
       {
@@ -644,28 +666,6 @@ export const searchIndex = [
       }
     ],
     "path": "/tips/i18n.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "API",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Method List",
-        "slug": "method-list",
-        "link": "#method-list",
-        "children": []
-      }
-    ],
-    "path": "/reference/apiList.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Feature List",
-    "headers": [],
-    "path": "/reference/featureList.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -698,16 +698,16 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Tips",
+    "title": "Reference",
     "headers": [],
-    "path": "/tips/",
+    "path": "/reference/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "Reference",
+    "title": "Tips",
     "headers": [],
-    "path": "/reference/",
+    "path": "/tips/",
     "pathLocale": "/",
     "extraFields": []
   }
