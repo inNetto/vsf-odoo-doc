@@ -449,6 +449,51 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "Custom API client",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Introduction",
+        "slug": "introduction",
+        "link": "#introduction",
+        "children": []
+      }
+    ],
+    "path": "/guides/customApis.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Custom queries",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Introduction",
+        "slug": "introduction",
+        "link": "#introduction",
+        "children": []
+      }
+    ],
+    "path": "/guides/customQueries.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Payment",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Adyen external",
+        "slug": "adyen-external",
+        "link": "#adyen-external",
+        "children": []
+      }
+    ],
+    "path": "/guides/payment.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Configuration",
     "headers": [
       {
@@ -518,9 +563,9 @@ export const searchIndex = [
       },
       {
         "level": 2,
-        "title": "Vuestoryfront Docker (under construction)",
-        "slug": "vuestoryfront-docker-under-construction",
-        "link": "#vuestoryfront-docker-under-construction",
+        "title": "Vuestoryfront Docker",
+        "slug": "vuestoryfront-docker",
+        "link": "#vuestoryfront-docker",
         "children": []
       }
     ],
@@ -543,51 +588,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Custom API client",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Introduction",
-        "slug": "introduction",
-        "link": "#introduction",
-        "children": []
-      }
-    ],
-    "path": "/guides/customApis.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Custom queries",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Introduction",
-        "slug": "introduction",
-        "link": "#introduction",
-        "children": []
-      }
-    ],
-    "path": "/guides/customQueries.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Payment",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Adyen external",
-        "slug": "adyen-external",
-        "link": "#adyen-external",
-        "children": []
-      }
-    ],
-    "path": "/guides/payment.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Demonstration",
     "headers": [
       {
@@ -599,6 +599,28 @@ export const searchIndex = [
       }
     ],
     "path": "/introduction/demo.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "API",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Method List",
+        "slug": "method-list",
+        "link": "#method-list",
+        "children": []
+      }
+    ],
+    "path": "/reference/apiList.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Feature List",
+    "headers": [],
+    "path": "/reference/featureList.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -633,28 +655,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "API",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Method List",
-        "slug": "method-list",
-        "link": "#method-list",
-        "children": []
-      }
-    ],
-    "path": "/reference/apiList.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Feature List",
-    "headers": [],
-    "path": "/reference/featureList.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Starting a new project",
     "headers": [],
     "path": "/introduction/quick-start/starting-new.html",
@@ -662,7 +662,7 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Testing enviroment integration",
+    "title": "Testing vsf + odoo",
     "headers": [
       {
         "level": 2,
@@ -691,16 +691,16 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Configuration",
+    "title": "Guides",
     "headers": [],
-    "path": "/configuration/",
+    "path": "/guides/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "Guides",
+    "title": "Configuration",
     "headers": [],
-    "path": "/guides/",
+    "path": "/configuration/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -712,16 +712,16 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Tips",
+    "title": "Reference",
     "headers": [],
-    "path": "/tips/",
+    "path": "/reference/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "Reference",
+    "title": "Tips",
     "headers": [],
-    "path": "/reference/",
+    "path": "/tips/",
     "pathLocale": "/",
     "extraFields": []
   },

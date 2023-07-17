@@ -27,5 +27,5 @@ Check out more at: https://www.odoogap.com/
 
 # Demo
 
-To see what we are talking about, feel free to check our [demo](https://vsf.labs.odoogap.com/) server (it's a dev server so it could be down sometimes). But if you want to go deeper and runs into your local machine, no problem. Take a lok into [Quick Start](/introduction/start.md) session.
+To see what we are talking about, feel free to check our [demo](https://vsf.labs.odoogap.com/) server (it's a dev server so it could be down sometimes). But if you want to go deeper and runs into your local machine, no problem. Take a lok into [Quick Start](/introduction/quick-start/testing-local.md) session.
 
