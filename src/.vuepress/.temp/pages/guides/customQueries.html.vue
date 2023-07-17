@@ -1,7 +1,6 @@
 <template><div><h1 id="custom-queries" tabindex="-1"><a class="header-anchor" href="#custom-queries" aria-hidden="true">#</a> Custom queries</h1>
 <h2 id="introduction" tabindex="-1"><a class="header-anchor" href="#introduction" aria-hidden="true">#</a> Introduction</h2>
-<p>Following the <a href="https://docs.vuestorefront.io/v2/composition/extending-graphql-queries.html" target="_blank" rel="noopener noreferrer">Extending GraphQL Queries<ExternalLinkIcon/></a><br>
-,we can override the base queries from odoo to our custom queries.</p>
+<p>Following the <a href="https://docs.vuestorefront.io/v2/composition/extending-graphql-queries.html" target="_blank" rel="noopener noreferrer">Extending GraphQL Queries<ExternalLinkIcon/></a>, we can override the base queries from odoo to our custom queries.</p>
 <h4 id="import-the-customqueries-file-to-middleware" tabindex="-1"><a class="header-anchor" href="#import-the-customqueries-file-to-middleware" aria-hidden="true">#</a> <span style="color:#E38748; font-weight: 400;">Import the customQueries file to middleware</span></h4>
 <div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token comment">// middleware.config.js</span>
 <span class="token keyword">const</span> customQueries <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'./custom-project-api/customQueries'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>

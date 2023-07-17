@@ -9,44 +9,66 @@ export default sidebar({
       prefix: "introduction/",      
       children: [
         {
-          text: "Quick Start",
-          prefix: "introduction/",
-          link: "start",
-          children: "structure",
-        },       
-        {
           text: "Demo",
           prefix: "demo/",
           link: "demo",
           children: "structure",
         },
-          
+        {
+          text: "Quick Start",
+          prefix: "quick-start/",  
+          children: [{
+              text: "Integration test",
+              prefix: "testing-local/",
+              link: "testing-local",
+              children: "structure",
+            },
+            {
+              text: "New project",
+              prefix: "starting-new/",
+              link: "starting-new",
+              children: "structure",
+            }
+          ],
+        } 
       ]
     },
-    {
-      text: "Enviroment",
-      icon: "gears",
-      prefix: "enviroment/",
-      children: [
+    {    
+      text: "Configuration", 
+      icon: "gear",
+      prefix: "configuration/", 
+      link: "configuration",          
+      children:[
         {
-          text: "Features",
-          prefix: "features/",
-          link: "features",
-          children: "structure",
-        },
-        
-        {
-          text: "Configuration",
-          prefix: "introduction/",
-          link: "configuration",
+          text: "Docker-compose",
+          prefix: "docker-compose/",
+          link: "docker-compose",
           children: "structure",
         },
         {
-          text: "Ecosystem",
-          prefix: "eco/",
-          link: "eco",
+          text: "Image handle",
+          prefix: "assets/",
+          link: "assets",
           children: "structure",
         },
+        {
+          text: "Envs Variables",
+          prefix: "envs/",
+          link: "envs",
+          children: "structure",
+        },
+        {
+          text: "Middleware",
+          prefix: "middleware/",
+          link: "middleware",
+          children: "structure",
+        },
+        {
+          text: "Routes",
+          prefix: "routes/",
+          link: "routes",
+          children: "structure",
+        }, 
       ],
     },   
     {
@@ -54,13 +76,7 @@ export default sidebar({
       icon: "circle-info",
       prefix: "guides/",
       collapsible: true,
-      children: [
-        {
-          text: "Image handle",
-          prefix: "guides/",
-          link: "imageHandle",
-          children: "structure",
-        },
+      children: [        
         
         {
           text: "Custom queries",

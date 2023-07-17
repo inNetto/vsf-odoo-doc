@@ -12,35 +12,6 @@ tag:
 
 Here you can find extra informations that can be useful to configure your integration.
 
-# Middleware
-
-::: info
-Odoo use GraphQL. So, we need to use a middleware to convert the graphql to rest api. For more detailed explanation visit ("https://graphql.org/")
-:::
-
-```js
-// packages/theme/middleware.config.js
-const odooBaseUrl =
-  process.env.BACKEND_BASE_URL ||
-  process.env.BASE_URL ||
-  "https://vsfdemo.labs.odoogap.com/";
-const graphqlBaseUrl = `${odooBaseUrl}graphql/vsf`;
-
-module.exports = {
-  integrations: {
-    odoo: {
-      location: "@vue-storefront/odoo-api/server",
-      configuration: {
-        odooBaseUrl,
-        graphqlBaseUrl,
-      },
-    },
-  },
-};
-```
-
-# Enviroment
-
 ## Template Odoo
 |       Env        |                                  Default                                   |                                                                     Description                                                                      |
 | :--------------: | :----------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -60,7 +31,7 @@ module.exports = {
 | GOOGLE_TAG_MANAGER_ID |                                   google_container_id               |                                                             This allows you to easily add tracking tags such as Google Analytics                    |
 
 
-## Vuestoryfront Docker (under construction)
+## Vuestoryfront Docker
 
 |       Env        |                                  Value                                   |                                                                     Description                                                                      |
 | :--------------: | :----------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -84,47 +55,4 @@ module.exports = {
 
 ::: info
 You can choose to use the .env file or the enviroment variables directly useing **export** command.
-:::
-
-# Image Handle
-
-Always use the **getImage** method!
-
-**Why ?**
-
-This fetches from the correct baseURL (CDN for production / odoo others) and its already injected in vue.
-
-**How?**
-
-```js
- // from template
-   $image(productGetters.getCoverImage(product))
-   $image( image url )
-
-   // from setup
-   { url: root.$image(img.small) }
-```
-
-# Assets
-
-The assets folder on build stagging / prod will be sent to CDN with some hash.
-
-To nuxt compile the assets links with the rigth use require.
-
-```js
- :placeholder="require('~/assets/images/product/product_placeholder.png')"
-```
-
-# Routes
-
-Automaticaly the connector will create the routes for the products and categories.
-All the routes will be created on the **customRoutes** folder. Odoo back end provides a slug for the products and categories, so the front end can use that to create the routes.
-
-The commands **update:routes** and **update:redirects** will be used to create three files inside customRoutes folder. The first one creates **products.json** and **categories.json**. The second one creates **redirects.json**.
-These are optional scripts to be loaded manually, because the connector will create the routes automatically while build. For example **yarn dev** automatically creates the routes, so you don't need to run the commands.
-
-The connector will take the **website_slug** calculated field for the product data and will add that to a customRoutes/products.json file that should be included on the build. This mechanism is also used for categories slug and redirects. For this purpose you will find the commands: "update:routes" and "update:redirects".
-
-::: warning
-You must use **--dontGenerateRoutes** flag on build if you want to skip the customRoutes generation.
 :::

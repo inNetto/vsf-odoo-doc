@@ -1,33 +1,37 @@
 <template><div><h1 id="demonstration" tabindex="-1"><a class="header-anchor" href="#demonstration" aria-hidden="true">#</a> Demonstration</h1>
 <h1 id="what-is-it-about" tabindex="-1"><a class="header-anchor" href="#what-is-it-about" aria-hidden="true">#</a> What is it about?</h1>
-<p>This documentation is about Odoo integration with Vue Storefront 2. This integration is being developed and maintained by ODOOGAP / PROMPTEQUATION ❤️</p>
-<p>Before anything, you should take a look in our live demo: <a href="https://vsf.labs.odoogap.com/" target="_blank" rel="noopener noreferrer">https://vsf.labs.odoogap.com/<ExternalLinkIcon/></a> <em>it's a dev server so could be down sometimes</em></p>
-<h1 id="installation" tabindex="-1"><a class="header-anchor" href="#installation" aria-hidden="true">#</a> Installation</h1>
-<p>First of all we should understand what's inside the docker-compose file. We have 4 services:</p>
-<ul>
-<li>
-<p><strong>Redis</strong>: Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache and message broker. It's used by VSF to store the cache.</p>
-</li>
-<li>
-<p><strong>db</strong>: PostgreSQL database used by Odoo.</p>
-</li>
-<li>
-<p><strong>odoo</strong>: Odoo service. This is our backend service that you could use to manage your products, orders, etc.</p>
-</li>
-<li>
-<p><strong>vsf</strong>: Here is our front end integrated to Vue Storefront.</p>
-</li>
-</ul>
-<div class="language-bash line-numbers-mode" data-ext="sh"><pre v-pre class="language-bash"><code><span class="token function">docker-compose</span> up <span class="token parameter variable">--build</span> <span class="token parameter variable">-d</span>
-<span class="token comment"># You might want to check what happens under the hood</span>
-<span class="token function">docker-compose</span> logs <span class="token parameter variable">-f</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>If you use Docker Desktop and some .sh files are executed during instalation, we recommend you to read Docker Desktop Documentation to configure wsl  (<a href="https://docs.docker.com/docker-for-windows/wsl/" target="_blank" rel="noopener noreferrer">https://docs.docker.com/docker-for-windows/wsl/<ExternalLinkIcon/></a>).</p>
-<h1 id="after-installation" tabindex="-1"><a class="header-anchor" href="#after-installation" aria-hidden="true">#</a> After installation</h1>
-<p>Now just open <a href="http://localhost:3000" target="_blank" rel="noopener noreferrer">http://localhost:3000<ExternalLinkIcon/></a> for VSF and <a href="http://localhost:8069" target="_blank" rel="noopener noreferrer">http://localhost:8069<ExternalLinkIcon/></a> for Odoo (credentials admin/admin)</p>
+<p>This documentation is about Odoo integration with Vue Storefront 2. This integration has been developed and maintained by ODOOGAP / PROMPTEQUATION ❤️</p>
+<p>Before anything, you should take a look in our live demo: <a href="https://vsf.labs.odoogap.com/" target="_blank" rel="noopener noreferrer">https://vsf.labs.odoogap.com/<ExternalLinkIcon/></a> <em>it's a dev server so could be down sometimes</em> 🤷‍♂️</p>
 <div class="hint-container warning">
 <p class="hint-container-title">Note</p>
-<p>You might not see the top categories (MEN/WOMEN) until the Odoo server is initialized (database init takes time to install all modules)</p>
+<p>We need to make clear that this hole documentation is about <strong>vsf + odoo - front end</strong>, not about odoo back end. So, take a look in following explanations to better understand how it works.</p>
 </div>
-</div></template>
+<h2 id="vsf-community-projects-explanation" tabindex="-1"><a class="header-anchor" href="#vsf-community-projects-explanation" aria-hidden="true">#</a> VSF Community Projects explanation</h2>
+<p>We are VSF integrators, so we make part of vsf open source community. We keep 3 main projects available in Github VSF Community (<a href="https://github.com/vuestorefront-community" target="_blank" rel="noopener noreferrer">https://github.com/vuestorefront-community<ExternalLinkIcon/></a>) to keep everyting working:</p>
+<ul>
+<li>
+<p><strong>VSF-ODOO</strong>: Here is where our developer team works to make everything working with the best performance and user experience as possible. It keeps composable logic, the API connections to ODOO world and a git submodule pointer to template-odoo repository.</p>
+</li>
+<li>
+<p><strong>VSF-TEMPLATE-ODOO</strong>: This is the project to start a new vsf-odoo project. It's our main theme. So, if you want to start your own project, you'll need this repository to get start.</p>
+</li>
+<li>
+<p><strong>VSF-ODOO-DEMOS</strong>: This is the project that keeps some demonstrations and different themes.</p>
+</li>
+</ul>
+<div align="center">
+  <img :src="$withBase('/assets/submodule.png')" alt="create_new_project" />
+</div>
+<p>When we start a new project from <strong>VSF_TEMPLATE_ODOO</strong>, the npm package with odoo composables and apis will be injected.</p>
+<div align="center">
+  <img :src="$withBase('/assets/create_new_project.png')" alt="create_new_project" />
+</div>
+<h1 id="features" tabindex="-1"><a class="header-anchor" href="#features" aria-hidden="true">#</a> Features</h1>
+<div class="hint-container info">
+<p class="hint-container-title">Info</p>
+<p>Already pre configured feaures!<br>
+Just need your API and if need, your customizations</p>
+</div>
+<VPCard v-bind='{"title":"Google Tag Manager","logo":"../../gtm.svg","link":"https://marketingplatform.google.com/about/tag-manager/","color":"rgba(253, 230, 138, 0.15)"}' /><VPCard v-bind='{"title":"Google Analytics","logo":"../../ga.svg","link":"https://analytics.google.com/analytics/web/provision/#/provision","color":"rgba(253, 230, 138, 0.15)"}' /><VPCard v-bind='{"title":"Sitemap","logo":"../../sm.svg","link":"https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview?hl=pt-br#:~:text=A%20sitemap%20is%20a%20file,crawl%20your%20site%20more%20efficiently","color":"rgba(253, 230, 138, 0.15)"}' /><VPCard v-bind='{"title":"Redis Page Cache","logo":"../../redapi.svg","link":"https://redis.com/ebook/part-1-getting-started/chapter-2-anatomy-of-a-redis-web-application/2-3-web-page-caching/","color":"rgba(253, 230, 138, 0.15)"}' /><VPCard v-bind='{"title":"Redis Api Cache","logo":"../../red.svg","link":"https://redis.io/docs/manual/client-side-caching/","color":"rgba(253, 230, 138, 0.15)"}' /><VPCard v-bind='{"title":"PWA Ready","logo":"../../pwa.svg","link":"https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps","color":"rgba(253, 230, 138, 0.15)"}' /></div></template>
 
 

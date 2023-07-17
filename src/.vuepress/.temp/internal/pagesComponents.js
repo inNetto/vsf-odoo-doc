@@ -31,44 +31,52 @@ export const pagesComponents = {
   "v-3c8729ae": defineAsyncComponent(() => import(/* webpackChunkName: "v-3c8729ae" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/composables/useUserBilling.html.vue")),
   // path: /composables/useWishlist.html
   "v-021d1562": defineAsyncComponent(() => import(/* webpackChunkName: "v-021d1562" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/composables/useWishlist.html.vue")),
-  // path: /enviroment/
-  "v-2d83413f": defineAsyncComponent(() => import(/* webpackChunkName: "v-2d83413f" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/enviroment/index.html.vue")),
-  // path: /enviroment/configuration.html
-  "v-004cf5bc": defineAsyncComponent(() => import(/* webpackChunkName: "v-004cf5bc" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/enviroment/configuration.html.vue")),
-  // path: /enviroment/eco.html
-  "v-088c5e27": defineAsyncComponent(() => import(/* webpackChunkName: "v-088c5e27" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/enviroment/eco.html.vue")),
-  // path: /enviroment/features.html
-  "v-44951046": defineAsyncComponent(() => import(/* webpackChunkName: "v-44951046" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/enviroment/features.html.vue")),
+  // path: /configuration/assets.html
+  "v-048c8278": defineAsyncComponent(() => import(/* webpackChunkName: "v-048c8278" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/configuration/assets.html.vue")),
+  // path: /configuration/docker-compose.html
+  "v-77e522bc": defineAsyncComponent(() => import(/* webpackChunkName: "v-77e522bc" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/configuration/docker-compose.html.vue")),
+  // path: /configuration/eco.html
+  "v-105c6f1a": defineAsyncComponent(() => import(/* webpackChunkName: "v-105c6f1a" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/configuration/eco.html.vue")),
+  // path: /configuration/envs.html
+  "v-56b1b681": defineAsyncComponent(() => import(/* webpackChunkName: "v-56b1b681" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/configuration/envs.html.vue")),
+  // path: /configuration/middleware.html
+  "v-4e3a9315": defineAsyncComponent(() => import(/* webpackChunkName: "v-4e3a9315" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/configuration/middleware.html.vue")),
+  // path: /configuration/routes.html
+  "v-3500df5d": defineAsyncComponent(() => import(/* webpackChunkName: "v-3500df5d" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/configuration/routes.html.vue")),
   // path: /guides/customApis.html
   "v-575b0790": defineAsyncComponent(() => import(/* webpackChunkName: "v-575b0790" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/guides/customApis.html.vue")),
   // path: /guides/customQueries.html
   "v-153abafa": defineAsyncComponent(() => import(/* webpackChunkName: "v-153abafa" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/guides/customQueries.html.vue")),
-  // path: /guides/imageHandle.html
-  "v-7fefa255": defineAsyncComponent(() => import(/* webpackChunkName: "v-7fefa255" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/guides/imageHandle.html.vue")),
   // path: /guides/payment.html
   "v-786fc912": defineAsyncComponent(() => import(/* webpackChunkName: "v-786fc912" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/guides/payment.html.vue")),
   // path: /introduction/demo.html
   "v-64703f5a": defineAsyncComponent(() => import(/* webpackChunkName: "v-64703f5a" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/introduction/demo.html.vue")),
-  // path: /introduction/start.html
-  "v-5e48f3b3": defineAsyncComponent(() => import(/* webpackChunkName: "v-5e48f3b3" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/introduction/start.html.vue")),
-  // path: /reference/apiList.html
-  "v-5696e704": defineAsyncComponent(() => import(/* webpackChunkName: "v-5696e704" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/reference/apiList.html.vue")),
-  // path: /reference/featureList.html
-  "v-2b6186bc": defineAsyncComponent(() => import(/* webpackChunkName: "v-2b6186bc" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/reference/featureList.html.vue")),
   // path: /tips/customTypes.html
   "v-7c5ef2ef": defineAsyncComponent(() => import(/* webpackChunkName: "v-7c5ef2ef" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/tips/customTypes.html.vue")),
   // path: /tips/i18n.html
   "v-fcacb2c6": defineAsyncComponent(() => import(/* webpackChunkName: "v-fcacb2c6" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/tips/i18n.html.vue")),
+  // path: /reference/apiList.html
+  "v-5696e704": defineAsyncComponent(() => import(/* webpackChunkName: "v-5696e704" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/reference/apiList.html.vue")),
+  // path: /reference/featureList.html
+  "v-2b6186bc": defineAsyncComponent(() => import(/* webpackChunkName: "v-2b6186bc" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/reference/featureList.html.vue")),
+  // path: /introduction/quick-start/starting-new.html
+  "v-a5afbb46": defineAsyncComponent(() => import(/* webpackChunkName: "v-a5afbb46" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/introduction/quick-start/starting-new.html.vue")),
+  // path: /introduction/quick-start/testing-local.html
+  "v-522f86d4": defineAsyncComponent(() => import(/* webpackChunkName: "v-522f86d4" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/introduction/quick-start/testing-local.html.vue")),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3706649a" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/404.html.vue")),
   // path: /composables/
   "v-07003d62": defineAsyncComponent(() => import(/* webpackChunkName: "v-07003d62" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/composables/index.html.vue")),
+  // path: /configuration/
+  "v-2bc0f532": defineAsyncComponent(() => import(/* webpackChunkName: "v-2bc0f532" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/configuration/index.html.vue")),
   // path: /guides/
   "v-ff762602": defineAsyncComponent(() => import(/* webpackChunkName: "v-ff762602" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/guides/index.html.vue")),
   // path: /introduction/
   "v-712e14fc": defineAsyncComponent(() => import(/* webpackChunkName: "v-712e14fc" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/introduction/index.html.vue")),
-  // path: /reference/
-  "v-22a2f9fd": defineAsyncComponent(() => import(/* webpackChunkName: "v-22a2f9fd" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/reference/index.html.vue")),
   // path: /tips/
   "v-1557149e": defineAsyncComponent(() => import(/* webpackChunkName: "v-1557149e" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/tips/index.html.vue")),
+  // path: /reference/
+  "v-22a2f9fd": defineAsyncComponent(() => import(/* webpackChunkName: "v-22a2f9fd" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/reference/index.html.vue")),
+  // path: /introduction/quick-start/
+  "v-c2d71a2e": defineAsyncComponent(() => import(/* webpackChunkName: "v-c2d71a2e" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/introduction/quick-start/index.html.vue")),
 }

@@ -1,8 +1,7 @@
 # Custom queries
 
 ## Introduction
-Following the [Extending GraphQL Queries](https://docs.vuestorefront.io/v2/composition/extending-graphql-queries.html)
-,we can override the base queries from odoo to our custom queries.
+Following the [Extending GraphQL Queries](https://docs.vuestorefront.io/v2/composition/extending-graphql-queries.html), we can override the base queries from odoo to our custom queries.
 
 
 

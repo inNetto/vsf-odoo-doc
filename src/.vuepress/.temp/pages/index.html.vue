@@ -10,7 +10,7 @@ This is the documentation for Vue Storefront integration with Odoo.
 <p>If you have any questions or want to schedule a meeting please visit and talk to us at: <a href="https://www.odoogap.com/" target="_blank" rel="noopener noreferrer">https://www.odoogap.com/<ExternalLinkIcon/></a>)</p>
 <p>Check out more at: <a href="https://www.odoogap.com/" target="_blank" rel="noopener noreferrer">https://www.odoogap.com/<ExternalLinkIcon/></a></p>
 <h1 id="demo" tabindex="-1"><a class="header-anchor" href="#demo" aria-hidden="true">#</a> Demo</h1>
-<p>To see what we are talking about, feel free to check our <a href="https://vsf.labs.odoogap.com/" target="_blank" rel="noopener noreferrer">demo<ExternalLinkIcon/></a> server (it's a dev server so it could be down sometimes)</p>
+<p>To see what we are talking about, feel free to check our <a href="https://vsf.labs.odoogap.com/" target="_blank" rel="noopener noreferrer">demo<ExternalLinkIcon/></a> server (it's a dev server so it could be down sometimes). But if you want to go deeper and runs into your local machine, no problem. Take a lok into <RouterLink to="/introduction/start.html">Quick Start</RouterLink> session.</p>
 </div></template>
 
 

@@ -449,32 +449,60 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Guide",
+    "title": "Configuration",
+    "headers": [
+      {
+        "level": 3,
+        "title": "Why ?",
+        "slug": "why",
+        "link": "#why",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "How ?",
+        "slug": "how",
+        "link": "#how",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "Example 1",
+        "slug": "example-1",
+        "link": "#example-1",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "Example 2",
+        "slug": "example-2",
+        "link": "#example-2",
+        "children": []
+      }
+    ],
+    "path": "/configuration/assets.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Configuration",
+    "headers": [],
+    "path": "/configuration/docker-compose.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Ecosystem",
     "headers": [
       {
         "level": 2,
-        "title": "Highlight Features",
-        "slug": "highlight-features",
-        "link": "#highlight-features",
-        "children": [
-          {
-            "level": 3,
-            "title": "Bar",
-            "slug": "bar",
-            "link": "#bar",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Foo",
-            "slug": "foo",
-            "link": "#foo",
-            "children": []
-          }
-        ]
+        "title": "Projects",
+        "slug": "projects",
+        "link": "#projects",
+        "children": []
       }
     ],
-    "path": "/enviroment/",
+    "path": "/configuration/eco.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -496,29 +524,21 @@ export const searchIndex = [
         "children": []
       }
     ],
-    "path": "/enviroment/configuration.html",
+    "path": "/configuration/envs.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "Ecosystem",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Projects",
-        "slug": "projects",
-        "link": "#projects",
-        "children": []
-      }
-    ],
-    "path": "/enviroment/eco.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Features",
+    "title": "Configuration",
     "headers": [],
-    "path": "/enviroment/features.html",
+    "path": "/configuration/middleware.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Configuration",
+    "headers": [],
+    "path": "/configuration/routes.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -553,42 +573,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Image handle",
-    "headers": [
-      {
-        "level": 3,
-        "title": "Why ?",
-        "slug": "why",
-        "link": "#why",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "How ?",
-        "slug": "how",
-        "link": "#how",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "Example 1",
-        "slug": "example-1",
-        "link": "#example-1",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "Example 2",
-        "slug": "example-2",
-        "link": "#example-2",
-        "children": []
-      }
-    ],
-    "path": "/guides/imageHandle.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Payment",
     "headers": [
       {
@@ -605,37 +589,16 @@ export const searchIndex = [
   },
   {
     "title": "Demonstration",
-    "headers": [],
-    "path": "/introduction/demo.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Quick Start",
-    "headers": [],
-    "path": "/introduction/start.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "API",
     "headers": [
       {
         "level": 2,
-        "title": "Method List",
-        "slug": "method-list",
-        "link": "#method-list",
+        "title": "VSF Community Projects explanation",
+        "slug": "vsf-community-projects-explanation",
+        "link": "#vsf-community-projects-explanation",
         "children": []
       }
     ],
-    "path": "/reference/apiList.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Feature List",
-    "headers": [],
-    "path": "/reference/featureList.html",
+    "path": "/introduction/demo.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -670,6 +633,50 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "API",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Method List",
+        "slug": "method-list",
+        "link": "#method-list",
+        "children": []
+      }
+    ],
+    "path": "/reference/apiList.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Feature List",
+    "headers": [],
+    "path": "/reference/featureList.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Starting a new project",
+    "headers": [],
+    "path": "/introduction/quick-start/starting-new.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Testing enviroment integration",
+    "headers": [
+      {
+        "level": 2,
+        "title": "",
+        "slug": "",
+        "link": "#",
+        "children": []
+      }
+    ],
+    "path": "/introduction/quick-start/testing-local.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "",
     "headers": [],
     "path": "/404.html",
@@ -680,6 +687,13 @@ export const searchIndex = [
     "title": "Composables",
     "headers": [],
     "path": "/composables/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Configuration",
+    "headers": [],
+    "path": "/configuration/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -698,6 +712,13 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "Tips",
+    "headers": [],
+    "path": "/tips/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Reference",
     "headers": [],
     "path": "/reference/",
@@ -705,9 +726,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Tips",
+    "title": "Quick Start",
     "headers": [],
-    "path": "/tips/",
+    "path": "/introduction/quick-start/",
     "pathLocale": "/",
     "extraFields": []
   }
