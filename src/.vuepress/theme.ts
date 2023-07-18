@@ -17,6 +17,7 @@ export default hopeTheme({
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
   docsDir: "src",
+  contributors: false,
 
   // navbar
   navbar,
