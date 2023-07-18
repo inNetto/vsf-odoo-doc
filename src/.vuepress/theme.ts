@@ -6,13 +6,13 @@ export default hopeTheme({
   hostname: "https://www.erpgap.com/",
 
   author: {
-    name: "Mr.Vsf",
+    name: "Mr.VSF",
     url: "https://www.erpgap.com/",
   },
 
   iconAssets: "https://kit.fontawesome.com/8fa2cdfc02.js",
 
-  logo: "https://user-images.githubusercontent.com/1626923/137092657-fb398d20-b592-4661-a1f9-4135db0b61d5.png",
+  logo: "/logo.svg",
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
@@ -21,9 +21,8 @@ export default hopeTheme({
   // navbar
   navbar,
   navbarLayout: {
-    start: ["Brand"],
-    center: ["Links"],
-    end: ["Search", "Repo"],
+    start: ["Brand"],   
+    end: ["Links","Search","Repo"],  
   },
 
   // sidebar
@@ -44,6 +43,8 @@ export default hopeTheme({
   
 
   plugins: {
+
+    activeHeaderLinks: false,
     // You should generate and use your own comment service
     comment: {
       // @ts-expect-error: You should generate and use your own comment service

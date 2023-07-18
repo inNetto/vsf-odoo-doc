@@ -5,8 +5,7 @@ import theme from "./theme.js";
 export default defineUserConfig({
   base: "/",
 
-  lang: "en-US",
-  title: "Docs",
+  lang: "en-US",  
   description: "VSF + ODOO integration",
  plugins: [
     searchPlugin({

@@ -36,8 +36,7 @@ export default sidebar({
     {    
       text: "Configuration", 
       icon: "gear",
-      prefix: "configuration/", 
-      link: "configuration",          
+      prefix: "configuration/",                
       children:[
         {
           text: "Docker-compose",

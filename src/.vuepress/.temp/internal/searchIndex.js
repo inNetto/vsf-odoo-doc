@@ -449,51 +449,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Custom API client",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Introduction",
-        "slug": "introduction",
-        "link": "#introduction",
-        "children": []
-      }
-    ],
-    "path": "/guides/customApis.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Custom queries",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Introduction",
-        "slug": "introduction",
-        "link": "#introduction",
-        "children": []
-      }
-    ],
-    "path": "/guides/customQueries.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Payment",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Adyen external",
-        "slug": "adyen-external",
-        "link": "#adyen-external",
-        "children": []
-      }
-    ],
-    "path": "/guides/payment.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Configuration",
     "headers": [
       {
@@ -584,6 +539,51 @@ export const searchIndex = [
     "title": "Configuration",
     "headers": [],
     "path": "/configuration/routes.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Custom API client",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Introduction",
+        "slug": "introduction",
+        "link": "#introduction",
+        "children": []
+      }
+    ],
+    "path": "/guides/customApis.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Custom queries",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Introduction",
+        "slug": "introduction",
+        "link": "#introduction",
+        "children": []
+      }
+    ],
+    "path": "/guides/customQueries.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Payment",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Adyen external",
+        "slug": "adyen-external",
+        "link": "#adyen-external",
+        "children": []
+      }
+    ],
+    "path": "/guides/payment.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -691,16 +691,16 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Guides",
+    "title": "Configuration",
     "headers": [],
-    "path": "/guides/",
+    "path": "/configuration/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "Configuration",
+    "title": "Guides",
     "headers": [],
-    "path": "/configuration/",
+    "path": "/guides/",
     "pathLocale": "/",
     "extraFields": []
   },

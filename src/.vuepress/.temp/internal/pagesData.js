@@ -29,12 +29,6 @@ export const pagesData = {
   "v-3c8729ae": () => import(/* webpackChunkName: "v-3c8729ae" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/composables/useUserBilling.html.js").then(({ data }) => data),
   // path: /composables/useWishlist.html
   "v-021d1562": () => import(/* webpackChunkName: "v-021d1562" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/composables/useWishlist.html.js").then(({ data }) => data),
-  // path: /guides/customApis.html
-  "v-575b0790": () => import(/* webpackChunkName: "v-575b0790" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/guides/customApis.html.js").then(({ data }) => data),
-  // path: /guides/customQueries.html
-  "v-153abafa": () => import(/* webpackChunkName: "v-153abafa" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/guides/customQueries.html.js").then(({ data }) => data),
-  // path: /guides/payment.html
-  "v-786fc912": () => import(/* webpackChunkName: "v-786fc912" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/guides/payment.html.js").then(({ data }) => data),
   // path: /configuration/assets.html
   "v-048c8278": () => import(/* webpackChunkName: "v-048c8278" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/configuration/assets.html.js").then(({ data }) => data),
   // path: /configuration/docker-compose.html
@@ -47,6 +41,12 @@ export const pagesData = {
   "v-4e3a9315": () => import(/* webpackChunkName: "v-4e3a9315" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/configuration/middleware.html.js").then(({ data }) => data),
   // path: /configuration/routes.html
   "v-3500df5d": () => import(/* webpackChunkName: "v-3500df5d" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/configuration/routes.html.js").then(({ data }) => data),
+  // path: /guides/customApis.html
+  "v-575b0790": () => import(/* webpackChunkName: "v-575b0790" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/guides/customApis.html.js").then(({ data }) => data),
+  // path: /guides/customQueries.html
+  "v-153abafa": () => import(/* webpackChunkName: "v-153abafa" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/guides/customQueries.html.js").then(({ data }) => data),
+  // path: /guides/payment.html
+  "v-786fc912": () => import(/* webpackChunkName: "v-786fc912" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/guides/payment.html.js").then(({ data }) => data),
   // path: /introduction/demo.html
   "v-64703f5a": () => import(/* webpackChunkName: "v-64703f5a" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/introduction/demo.html.js").then(({ data }) => data),
   // path: /reference/apiList.html
@@ -65,10 +65,10 @@ export const pagesData = {
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
   // path: /composables/
   "v-07003d62": () => import(/* webpackChunkName: "v-07003d62" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/composables/index.html.js").then(({ data }) => data),
-  // path: /guides/
-  "v-ff762602": () => import(/* webpackChunkName: "v-ff762602" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/guides/index.html.js").then(({ data }) => data),
   // path: /configuration/
   "v-2bc0f532": () => import(/* webpackChunkName: "v-2bc0f532" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/configuration/index.html.js").then(({ data }) => data),
+  // path: /guides/
+  "v-ff762602": () => import(/* webpackChunkName: "v-ff762602" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/guides/index.html.js").then(({ data }) => data),
   // path: /introduction/
   "v-712e14fc": () => import(/* webpackChunkName: "v-712e14fc" */"/home/netto/projetos/odooJob/hope/doc/src/.vuepress/.temp/pages/introduction/index.html.js").then(({ data }) => data),
   // path: /reference/

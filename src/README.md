@@ -1,6 +1,5 @@
 ---
 title: Presentation
-index: false
 icon: person-chalkboard
 category:
   - What is it?  
