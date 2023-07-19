@@ -7,7 +7,7 @@
   "repository": "https://github.com/vuestorefront/__replace_me__/docs",
   "scripts": {
     "dev": "vuepress dev",
-    "build": "vuepress build",
+    "build": "vuepress build NODE_OPTIONS=--openssl-legacy-provider",
     "api-extract": "yarn api-ref && yarn comp-ref && yarn ref-md",
     "api-ref": "cd ../packages/api-client && api-extractor run --local",
     "comp-ref": "cd ../packages/composables && api-extractor run --local",
