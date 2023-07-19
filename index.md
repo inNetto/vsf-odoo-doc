@@ -1,5 +1,5 @@
 <div align="center">
-<img src="../doc/.vuepress/public/logo.png" alt="Vue Storefront" />
+<img src="./.vuepress/public/logo.png" alt="Vue Storefront" />
 </div>
 
 <br>
